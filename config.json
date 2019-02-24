@@ -1,0 +1,24 @@
+{
+  "name": "ring alarm hassio integration",
+  "version": "0.4",
+  "slug": "ring_alarm",
+  "description": "Ring integration!",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "username": "",
+    "password": "",
+    "mqtt_server":"",
+    "mqtt_username":"",
+    "mqtt_password":"",
+    "discovery":"false"
+  },
+  "schema": {
+    "username": "str",
+    "password": "str",
+    "mqtt_server":"str",
+    "mqtt_username":"str",
+    "mqtt_password":"str",
+    "discovery":"str"
+  }
+}
