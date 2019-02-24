@@ -2,7 +2,7 @@
   "name": "ring alarm hassio integration",
   "version": "0.4",
   "slug": "ring_alarm",
-  "description": "Ring integration!",
+  "description": "Ring Alarm Integration!",
   "startup": "before",
   "boot": "auto",
   "options": {
