@@ -15,5 +15,5 @@ mqtt_username="$(jq --raw-output '.mqtt_username' $CONFIG_PATH)"
 mqtt_password="$(jq --raw-output '.mqtt_password' $CONFIG_PATH)"
 mqtt="$(jq --raw-output '.mqtt_server' $CONFIG_PATH)"
 discovery="$(jq --raw-output '.discovery' $CONFIG_PATH)"
-
+sleep 30
 RING_USERNAME=$ring_username RING_PASSPHRASE=$ring_passphrase MQTT=$mqtt DISCOVERY=$discovery MQTT_USER=$mqtt_username MQTT_PW=$mqtt_password node ring-alarm-HA-plugin/mqttAlarm.js
