@@ -1,6 +1,6 @@
 {
   "name": "ring alarm hassio integration",
-  "version": "0.4",
+  "version": "0.5",
   "slug": "ring_alarm",
   "description": "Ring Alarm Integration!",
   "startup": "before",
